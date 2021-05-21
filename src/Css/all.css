@@ -1,0 +1,45 @@
+.Input{
+    width: 40%;
+}
+
+.allincompo{
+    background-color:rgba(137, 43, 226, 0.116);
+  
+    text-align: center;
+}
+
+.Input_2{
+    width: 100px;
+    margin: 20px;
+}
+
+.in_box{
+    margin-left: 20px;
+    
+}
+
+.Calculate_Button{
+    margin-left: 10px;
+    
+}
+
+.result{
+    text-align: left;
+    margin-left: 45%;
+    font-size: 15px;
+}
+
+.Chart{
+    text-align: center;
+}
+
+.MakeMatrix{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+
+.button_layout{
+    margin: 5px;
+}
