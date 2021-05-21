@@ -25,6 +25,7 @@ import Lagrange from "./Components/Lagrange"
 import Cubic_spline from "./Components/Cubic_spline"
 import Linear_regression from "./Components/Linear_regression"
 import Polynomial_regression from "./Components/Polynomial_regression"
+import swagger from "./Components/swagger"
 class App extends Component {
 
   render() {
@@ -50,6 +51,7 @@ class App extends Component {
           <Route  exact path="/Cubic_spline" component={Cubic_spline} /> 
           <Route  exact path="/Linear_regression" component={Linear_regression} /> 
           <Route  exact path="/Polynomial_regression" component={Polynomial_regression} /> 
+          <Route  exact path="/swagger" component={swagger} /> 
       </Router>
     );
   }
