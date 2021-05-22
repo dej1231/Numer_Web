@@ -9,8 +9,8 @@ import { Button } from 'antd';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts';
 
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/root/Newton_Raphson?key=45134Asd4864wadfad"
-// let apiUrl = "https://my-json-server.typicode.com/pudjapu/react_wep/root"
+let apiUrl = "http://localhost:4040/data/root/Newton_Raphson"
+
 
 
 class Newton_Raphson extends React.Component{

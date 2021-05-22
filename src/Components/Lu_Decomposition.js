@@ -6,7 +6,7 @@ import '../Css/all.css'
 import { Button } from 'antd'
 
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/matrix/Lu_decomposition_method?key=45134Asd4864wadfad"
+let apiUrl = "http://localhost:4040/data/matrix/Lu_decomposition_method"
 
 class Lu_decomposition extends React.Component{
 

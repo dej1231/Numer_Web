@@ -6,7 +6,7 @@ import { Button } from 'antd'
 import '../Css/all.css'
 
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/matrix/Conjugate_gradient_method?key=45134Asd4864wadfad"
+let apiUrl = "http://localhost:4040/data/matrix/Conjugate_gradient_method"
 
 class Conjugate extends React.Component{
 

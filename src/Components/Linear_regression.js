@@ -11,7 +11,7 @@ import { Button } from 'antd'
 import { ComposedChart, Line ,XAxis , YAxis, CartesianGrid, Scatter, ReferenceLine} from 'recharts';
 
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/interpolation/Linear_regression?key=45134Asd4864wadfad"
+let apiUrl = "http://localhost:4040/data/interpolation/Linear_regression"
 
 class Linear extends React.Component{
 

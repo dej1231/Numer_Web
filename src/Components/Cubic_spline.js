@@ -9,7 +9,7 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis, ReferenceLine } from 'rec
 
 
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/interpolation/Cubic-spline?key=45134Asd4864wadfad"
+let apiUrl = "http://localhost:4040/data/interpolation/Cubic-spline"
 
 let Spline = require('cubic-spline');
 class Cubic_spline extends React.Component{

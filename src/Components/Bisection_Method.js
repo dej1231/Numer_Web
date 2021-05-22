@@ -8,8 +8,8 @@ import { bisection } from './Source/bisection'
 import axios from 'axios'
 import '../Css/all.css';
 
-let apiUrl = "http://localhost:4040/data/root/Bisection?key=45134Asd4864wadfad"
-// let apiUrl = "https://my-json-server.typicode.com/pudjapu/react_wep/root"
+let apiUrl = "http://localhost:4040/data/root/Bisection"
+
 
 
 class Bisection extends React.Component{

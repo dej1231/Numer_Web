@@ -7,7 +7,7 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis, ReferenceLine } from 'rec
 
 
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/interpolation/polynomial?key=45134Asd4864wadfad"
+let apiUrl = "http://localhost:4040/data/interpolation/polynomial"
 
 class Newton_Interpolation extends React.Component{
 

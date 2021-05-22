@@ -39,6 +39,7 @@ class App extends Component {
           <Route  exact path="/One_point" component={One_point } />         
           <Route  exact path="/Newton_Raphson" component={Newton_Raphson } />   
           <Route  exact path="/Secant" component={Secant} />    
+
           <Route  exact path="/Cramer_Rule" component={Cramer_Rule} /> 
           <Route  exact path="/Gauss_Elimination" component={Gauss_Elimination} />
           <Route  exact path="/Gauss_Jodan" component={Gauss_Jodan} />
@@ -46,6 +47,7 @@ class App extends Component {
           <Route  exact path="/Jacobi_iteration" component={Jacobi_iteration} />
           <Route  exact path="/Gauss_seidel" component={Gauss_seidel} />
           <Route  exact path="/Conjugate_gradient" component={Conjugate_gradient} />
+          
           <Route  exact path="/Newton_Interpolation" component={Newton_Interpolation} />
           <Route  exact path="/Lagrange" component={Lagrange} /> 
           <Route  exact path="/Cubic_spline" component={Cubic_spline} /> 

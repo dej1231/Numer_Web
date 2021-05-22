@@ -7,8 +7,8 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts';
 
 import '../Css/all.css';
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/root/One-point_iteration?key=45134Asd4864wadfad"
-// let apiUrl = "https://my-json-server.typicode.com/pudjapu/react_wep/root"
+let apiUrl = "http://localhost:4040/data/root/One-point_iteration"
+
 class One_point extends React.Component{
 
     state = {

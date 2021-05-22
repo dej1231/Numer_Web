@@ -7,7 +7,7 @@ import 'swagger-ui-react/swagger-ui.css'
 const data = {
     "swagger": "2.0",
     "info": {
-        "description": "ดีง้าบบบบ",
+        "description": "รอดF",
         "title": "Numerical Method"
     },
     "host": "localhost:4040/data",
@@ -31,7 +31,7 @@ const data = {
     ],
     
     "paths": {
-        "/root?key=45134Asd4864wadfad": {
+        "/root": {
             "post": {
                 "tags": [
                     "Root of Equation"
@@ -47,7 +47,7 @@ const data = {
                 }
             }
         },
-        "/root/{name}?key=45134Asd4864wadfad": {
+        "/root/{name}": {
             "post": {
                 "tags": [
                     "Root of Equation"
@@ -70,7 +70,7 @@ const data = {
                 }
             }
         },
-        "/matrix?key=45134Asd4864wadfad": {
+        "/matrix": {
             "post": {
                 "tags": [
                     "Matrix"
@@ -86,7 +86,7 @@ const data = {
                 }
             }
         },
-        "/matrix/{name}?key=45134Asd4864wadfad": {
+        "/matrix/{name}": {
             "post": {
                 "tags": [
                     "Matrix"
@@ -109,7 +109,7 @@ const data = {
                 }
             }
         },
-        "/interpolation?key=45134Asd4864wadfad": {
+        "/interpolation": {
             "post": {
                 "tags": [
                     "interpolation"
@@ -125,7 +125,7 @@ const data = {
                 }
             }
         },
-        "/interpolation/{name}?key=45134Asd4864wadfad": {
+        "/interpolation/{name}": {
             "post": {
                 "tags": [
                     "interpolation"

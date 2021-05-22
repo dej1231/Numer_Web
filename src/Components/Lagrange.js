@@ -9,7 +9,7 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis, ReferenceLine } from 'rec
 import '../Css/all.css'
 
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/interpolation/lagrange_interpolation?key=45134Asd4864wadfad"
+let apiUrl = "http://localhost:4040/data/interpolation/lagrange_interpolation"
 
 class Lagrange extends React.Component{
 

@@ -8,8 +8,8 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts';
 
 import axios from 'axios'
 import '../Css/all.css'
-let apiUrl = "http://localhost:4040/data/root/Secant?key=45134Asd4864wadfad"
-// let apiUrl = "https://my-json-server.typicode.com/pudjapu/react_wep/root"
+let apiUrl = "http://localhost:4040/data/root/Secant"
+
 
 class Secant extends React.Component{
 

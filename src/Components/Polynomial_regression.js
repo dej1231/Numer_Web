@@ -11,7 +11,7 @@ import { Button } from 'antd'
 import { ComposedChart, Line ,XAxis , YAxis, CartesianGrid, Scatter, ReferenceLine} from 'recharts';
 import PolynomialRegression from "js-polynomial-regression";
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/interpolation/polynomial_regression?key=45134Asd4864wadfad"
+let apiUrl = "http://localhost:4040/data/interpolation/polynomial_regression"
 
 var math = require('mathjs');
 

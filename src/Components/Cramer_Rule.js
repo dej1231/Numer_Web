@@ -1,12 +1,12 @@
 import React from 'react'
 import '../Css/all.css'
-// import {AddMatrix,DelMatrix,MakeMatrix,Getvalue} from './Source/Matrix'
+
 
 import { Button } from 'antd'
 import {Matrix} from './Source/Matrix'
 
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/matrix/cramer_rule?key=45134Asd4864wadfad"
+let apiUrl = "http://localhost:4040/data/matrix/cramer_rule"
 
 class Cramer extends React.Component{
 

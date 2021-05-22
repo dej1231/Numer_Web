@@ -9,7 +9,7 @@ import { Button } from 'antd'
 import {Matrix} from './Source/Matrix'
 
 import axios from 'axios'
-let apiUrl = "http://localhost:4040/data/matrix/Gauss_Elimination_Method?key=45134Asd4864wadfad"
+let apiUrl = "http://localhost:4040/data/matrix/Gauss_Elimination_Method"
 
 class Gauss_Elimination extends React.Component{
 
